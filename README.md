@@ -1,5 +1,4 @@
 # Redmond97
-## I am currently looking for someone who would be interested in taking over this project.
 
 A Win9x inspired theme for GTK3 and GTK2 developed for XFCE4
 ![Image Screenshot](https://github.com/matthewmx86/Redmond97/blob/master/Screenshots/Screenshot.png)

@@ -249,3 +249,10 @@ messagedialog image {
    border-left: 7px solid;
    border-image: url("assets/fm_toolbar.png");
    border-image-slice: 2 2 2 7; }
+
+/* Make the pages use the proper background color. Has a white background otherwise. */
+.pavucontrol-window scrolledwindow {
+    color: @theme_fg_color;
+    background-color: @theme_bg_color;
+    box-shadow: none;
+    border: 0; }

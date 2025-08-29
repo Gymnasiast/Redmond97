@@ -36,3 +36,7 @@ view:not(treeview) {
    color: @theme_unfocused_selected_fg_color;
    background-color: @theme_unfocused_selected_bg_color; }
 
+textview text,
+grid viewport box box textview {
+  background-color: @base_color;
+  box-shadow: 1px 1px @borders inset, -1px -1px @theme_bg_color inset; }

@@ -1,0 +1,23 @@
+/* base colors */
+@define-color bg_color #c0c0c0;
+@define-color fg_color #000000;
+@define-color base_color #FFFFFF;
+@define-color text_color #000000;
+@define-color selected_bg_color #0000aa;
+@define-color selected_fg_color #FFFFFF;
+@define-color light_shadow #FFFFFF;
+@define-color dark_shadow shade(@bg_color, 0.7);
+@define-color borders #000;
+@define-color button_bg_color @bg_color;
+@define-color button_fg_color @fg_color;
+@define-color toolbar_bg_color @button_bg_color;
+@define-color toolbar_fg_color @fg_color;
+@define-color menubar_bg_color @bg_color;
+@define-color menubar_fg_color @fg_color;
+@define-color notebook_bg_color @bg_color;
+@define-color disabled_fg_color #EFEFEF;
+@define-color active_title_color @selected_bg_color;
+@define-color active_title_color1 @selected_bg_color;
+@define-color active_title_text @selected_fg_color;
+/* begin */
+

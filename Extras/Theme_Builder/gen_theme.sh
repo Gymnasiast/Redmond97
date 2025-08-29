@@ -452,7 +452,7 @@ echo "Cleaning any previous orphaned files..."
 #Clean incomplete or interupted builds, compile images
 cleanup  2>>/dev/null
 echo "Extracting base files..."
-tar -xzf base.tar.gz 2>>/dev/null
+cp -R base/* .
 echo "Compiling theme images..."
 compile_assets $2 2>>/dev/null
 build_theme_config

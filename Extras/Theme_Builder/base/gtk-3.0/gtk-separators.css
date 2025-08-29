@@ -63,3 +63,7 @@ combobox separator {
 list separator, list separator:backdrop {
   background: none; }
 
+separator.horizontal {
+    border: none;
+    box-shadow: 0px 1px @light_shadow;
+    background-color: @dark_shadow; }

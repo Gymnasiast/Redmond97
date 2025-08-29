@@ -32,8 +32,8 @@ progressbar trough {
    border-bottom: 1px solid @light_shadow;
    border-right: 1px solid @light_shadow;
    border-radius: 0px;
-   box-shadow: 1px 1px @borders inset, -1px -1px @theme_bg_color inset;
-   background-color: @theme_base_color; }
+   background-color: transparent;
+ }
 
 treeview.view.trough, treeview.view.trough:selected {
    border: 1px solid @selected_bg_color;
@@ -41,7 +41,7 @@ treeview.view.trough, treeview.view.trough:selected {
    background-color: @base_color; }
   
 progressbar.horizontal trough, progressbar.horizontal progress {
-   min-height: 18px; }
+   min-height: 12px; }
 
 progressbar.vertical trough, progressbar.vertical progress {
-   min-width: 18px; }
+   min-width: 12px; }

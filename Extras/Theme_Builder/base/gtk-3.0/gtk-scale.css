@@ -51,3 +51,6 @@ scale.horizontal slider {
    min-height: 21px;
    min-width: 10px;
 }
+
+scale.horizontal contents {
+    min-height: 21px; }
